@@ -43,7 +43,7 @@
             var cid = $('#estado').val();
 
             $.ajax({
-                url:'config.php/Config/cadastrar',
+                url:'config.php',
                 method: 'POST',
                 data: new FormData(this),
                 //data: {uf:uf,cid:cid},
